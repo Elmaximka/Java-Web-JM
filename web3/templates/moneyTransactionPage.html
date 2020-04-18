@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web3-transaction</title>
+</head>
+<body>
+<style>
+    .outer {
+        text-align: center;
+    }
+</style>
+
+<form action="/transaction" method="POST">
+    <div class="outer">Name: <input type="text" name="senderName"/></div>
+    <p>
+    </p>
+    <div class="outer">Password: <input type="text" name="senderPass"/></div>
+    <p>
+    </p>
+    <div class="outer">Money: <input type="number" name="count"/></div>
+    <p>
+    </p>
+    <div class="outer">Getter Name: <input type="text" name="nameTo"/></div>
+    <p>
+    </p>
+    <div class="outer"><input type="submit" value="Send"/></div>
+</form>
+<table style=" width: 100%; border: 4px double #000000;">
+    <tr>
+        <td style="border: 1px solid black; text-align: center">
+            <a href="/registration">Registration</a>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
